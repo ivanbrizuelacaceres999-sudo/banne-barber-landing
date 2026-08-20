@@ -1,15 +1,14 @@
-// TODO: reemplazar por los números reales de Fato y Vane (formato: código país + número, sin +, sin espacios)
 const WHATSAPP_NUMBERS = {
-  fato: "595900000000",
-  vane: "595900000000",
+  fato: "595991552145",
+  vane: "595991552145",
 };
 
 const WHATSAPP_MESSAGES = {
-  fato: "Hola, quiero reservar un turno con Fato.",
-  vane: "Hola, quiero reservar un turno con Vane.",
+  fato: "Hola, quiero reservar un turno con Fatto.",
+  vane: "Hola, quiero reservar un turno con Bane.",
 };
 
-const INSTAGRAM_URL = "https://instagram.com/bannebarber"; // TODO: reemplazar por el usuario real
+const INSTAGRAM_URL = "https://www.instagram.com/banne_barber/";
 
 function buildWhatsAppLink(person) {
   const number = WHATSAPP_NUMBERS[person];

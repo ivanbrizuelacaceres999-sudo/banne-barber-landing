@@ -5,23 +5,23 @@ Landing móvil para la barbería Banne Barber. Sitio estático (HTML + CSS + JS 
 ## Estructura
 
 ```
-index.html          → toda la página (hero, barberos, precios, contacto, footer)
-styles.css           → estilos (paleta negro/celeste/blanco, muro de ladrillo, animaciones)
-script.js            → arma los links de WhatsApp/Instagram y detalles menores
-assets/favicon.svg   → ícono de la pestaña (mismo mark del logo)
-vercel.json          → config mínima para Vercel (URLs limpias)
+index.html            → toda la página (hero, barberos, precios, contacto, footer)
+styles.css             → estilos (paleta negro/gris/blanco, muro de ladrillo, animaciones)
+script.js              → arma los links de WhatsApp/Instagram y detalles menores
+assets/logo.jpg        → logo real de Banne Barber (usado en el hero)
+assets/fato.jpg        → foto de Fato
+assets/vane.jpg        → foto de Vane
+assets/favicon.svg     → ícono de la pestaña
+vercel.json            → config mínima para Vercel (URLs limpias)
 ```
 
-## Antes de publicar — datos pendientes
+## Datos ya cargados
 
-Editar **script.js**:
+- WhatsApp de Fato y Vane: `+595 991 552145` (mismo número para ambos).
+- Instagram: `@banne_barber`.
+- Ubicación: link directo a Google Maps.
 
-- `WHATSAPP_NUMBERS.fato` y `.vane` → números reales (formato `595XXXXXXXXX`, sin `+` ni espacios).
-- `INSTAGRAM_URL` → usuario real de Instagram.
-
-Editar **index.html**:
-
-- El botón de ubicación (ícono de mapa, abajo a la derecha) apunta a una búsqueda genérica de Google Maps — reemplazar por el link real del local cuando esté la dirección.
+Si algún dato cambia, están en **script.js** (`WHATSAPP_NUMBERS`, `INSTAGRAM_URL`) y en el botón de ubicación dentro de **index.html** (`.fab-group`, el link con el ícono de mapa).
 
 ## Cómo publicarlo en Vercel (sin usar la terminal)
 
