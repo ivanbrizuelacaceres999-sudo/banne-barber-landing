@@ -5,7 +5,7 @@ const WHATSAPP_NUMBERS = {
 
 const WHATSAPP_MESSAGES = {
   fato: "Hola, quiero reservar un turno con Fatto.",
-  vane: "Hola, quiero reservar un turno con Bane.",
+  vane: "Hola, quiero reservar un turno con Banne.",
 };
 
 const INSTAGRAM_URL = "https://www.instagram.com/banne_barber/";
